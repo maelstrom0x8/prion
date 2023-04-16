@@ -24,14 +24,17 @@ public class Product {
     @Column(nullable = false)
     private String name;
 
+    private Double price;
+
     @Temporal(TemporalType.DATE)
     @CreationTimestamp
     private LocalDate createdOn;
 
     public Product() {}
 
-    public Product(String name) {
+    public Product(String name, Double price) {
         this.name = name;
+        this.price = price;
     }
 
     public String getId() {
@@ -40,6 +43,14 @@ public class Product {
 
     public String getName() {
         return name;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
     public LocalDate getCreatedOn() {

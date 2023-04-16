@@ -20,13 +20,13 @@ public class ProductService {
 
     public List<ProductDTO> getAllProducts() {
         return productRepository.findAll().stream()
-            .map(this::fromProduct)
-            .collect(Collectors.toList());
+                .map(this::fromProduct)
+                .collect(Collectors.toList());
     }
 
     private ProductDTO fromProduct(Product product) {
         return new ProductDTO(product.getId(),
-                product.getName(), product.getCreatedOn());
+                product.getName(), product.getPrice(), product.getCreatedOn());
     }
 
 }
