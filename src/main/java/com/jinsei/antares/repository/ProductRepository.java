@@ -1,8 +1,8 @@
-package com.antares.jinsei.repository;
+package com.jinsei.antares.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.antares.jinsei.model.Product;
+import com.jinsei.antares.model.Product;
 
 public interface ProductRepository extends JpaRepository<Product, String> {
     

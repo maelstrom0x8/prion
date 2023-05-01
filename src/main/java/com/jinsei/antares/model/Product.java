@@ -1,4 +1,4 @@
-package com.antares.jinsei.model;
+package com.jinsei.antares.model;
 
 import java.time.LocalDate;
 

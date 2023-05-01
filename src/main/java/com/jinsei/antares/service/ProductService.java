@@ -1,13 +1,13 @@
-package com.antares.jinsei.service;
+package com.jinsei.antares.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
-import com.antares.jinsei.dto.ProductDTO;
-import com.antares.jinsei.model.Product;
-import com.antares.jinsei.repository.ProductRepository;
+import com.jinsei.antares.dto.ProductDTO;
+import com.jinsei.antares.model.Product;
+import com.jinsei.antares.repository.ProductRepository;
 
 @Service
 public class ProductService {

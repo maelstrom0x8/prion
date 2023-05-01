@@ -1,4 +1,4 @@
-package com.antares.jinsei.security;
+package com.jinsei.antares.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,10 +11,6 @@ public class WebSecurityConfiguration {
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
-        http.httpBasic(c -> {
-            c.authenticationEntryPoint(new CustomEntryPoint());
-            c.realmName("MASTER");
-        });
         http.formLogin(c -> {
             c.defaultSuccessUrl("/home");
             c.usernameParameter("username");

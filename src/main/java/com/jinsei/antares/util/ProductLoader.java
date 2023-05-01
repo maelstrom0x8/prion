@@ -1,4 +1,4 @@
-package com.antares.jinsei.util;
+package com.jinsei.antares.util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.antares.jinsei.model.Product;
-import com.antares.jinsei.repository.ProductRepository;
+import com.jinsei.antares.model.Product;
+import com.jinsei.antares.repository.ProductRepository;
 
 import jakarta.annotation.PostConstruct;
 

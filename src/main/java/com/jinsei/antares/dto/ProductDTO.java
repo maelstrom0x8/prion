@@ -1,4 +1,4 @@
-package com.antares.jinsei.dto;
+package com.jinsei.antares.dto;
 
 import java.time.LocalDate;
 

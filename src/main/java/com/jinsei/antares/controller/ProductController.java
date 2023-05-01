@@ -1,4 +1,4 @@
-package com.antares.jinsei.controller;
+package com.jinsei.antares.controller;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.antares.jinsei.dto.ProductDTO;
-import com.antares.jinsei.service.ProductService;
+import com.jinsei.antares.dto.ProductDTO;
+import com.jinsei.antares.service.ProductService;
 
 @RestController
 @RequestMapping("/api/v1/products")
