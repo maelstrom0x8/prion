@@ -1,4 +1,4 @@
-package com.jinsei.antares.security;
+package com.jinsei.antares.config.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;

@@ -1,0 +1,14 @@
+version: '3.1'
+
+
+services:
+  db:
+    container_name: jinsei-postgres
+    image: aeros-pg:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USERNAME="${EXPRESS_DATABASE_USERNAME}"
+      - POSTGRES_PASSWORD="${EXPRESS_DATABASE_PASSWORD}"
+    volumes:
+      - /mnt/data:/var/lib/postgresql/data

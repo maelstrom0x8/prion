@@ -1,4 +1,4 @@
-package com.jinsei.antares.security;
+package com.jinsei.antares.config.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

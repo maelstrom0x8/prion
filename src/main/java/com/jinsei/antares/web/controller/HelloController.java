@@ -1,4 +1,4 @@
-package com.jinsei.antares.controller;
+package com.jinsei.antares.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

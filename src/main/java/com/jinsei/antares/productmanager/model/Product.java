@@ -1,4 +1,4 @@
-package com.jinsei.antares.model;
+package com.jinsei.antares.productmanager.model;
 
 import java.time.LocalDate;
 
